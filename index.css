@@ -1,0 +1,105 @@
+body{
+    background-image: url('./images/img3.jpg');
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.search{
+    position: relative;
+    top: 6em;
+    left: 33em;
+    border: 1px solid brown;
+    background-color: peachpuff;
+    /* box-shadow: 10px 10px 10px solid peachpuff; */
+    height: 7em;
+    width: 25em;
+    padding: 10px;
+}
+
+.search #search-content{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    padding: 10px;
+}
+
+.search #search-content label{
+    padding: 5px;
+    font-size: large;
+    font-style: italic;
+}
+
+.search #search-content input{
+    height: 3em;
+    width: 15em;
+    padding: 10px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.search #search-content input:hover{
+    border: 2px solid blue;
+    box-shadow: 3px 3px 3px rgb(145, 184, 145);
+}
+
+.search #search-content button{
+    height: 3em;
+    width: 10em;
+    border: none;
+    background-color: rgb(106, 88, 64);
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container{
+    position: relative;
+    top: 12em;
+    left: 26em;
+}
+
+.container li{
+    list-style: none;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    font-size: bolder;
+    /* transition: transform .2s; Animation */
+    font-weight: 700;
+}
+
+a:hover{
+    /* transform: scale(1.5); */
+    background-color: rgb(235, 235, 249);
+    transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+}
+
+#news-list{
+   background-color: antiquewhite;
+   width: max-content;
+   padding: 40px;
+   border-radius: 9%;
+   margin-top: -50px;
+   visibility: hidden;
+}
+
+#header h1{
+    color: white;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.4em;
+    position: relative;
+    top: 20px;
+    left: 17em;
+}
+

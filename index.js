@@ -22,6 +22,7 @@ function getresult(){
             // appending childs
             li.appendChild(a)
             newsList.appendChild(li)
+            newsList.style.visibility = "visible"
         });
     })
 }
